@@ -23,6 +23,17 @@
     { "rule": "*semi", "severity": "off", "fixable": true }
   ],
 
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.classAttributes": ["class", "ui"],
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
   // Enable eslint for all supported languages
   "eslint.validate": [
     "javascript",
