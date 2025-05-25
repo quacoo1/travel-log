@@ -7,8 +7,11 @@ import { UButton } from '#components'
     <UButton variant="ghost" icon="hugeicons:maps-location-02" color="neutral" to="/">
       Travel Log
     </UButton>
-    <UButton trailing-icon="hugeicons:github-01" size="lg">
-      Sign In
-    </UButton>
+    <div class="flex items-center space-x-2">
+      <AppThemeToggle />
+      <UButton trailing-icon="hugeicons:github-01" size="lg">
+        Sign In
+      </UButton>
+    </div>
   </header>
 </template>
