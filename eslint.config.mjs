@@ -8,7 +8,7 @@ export default withNuxt(antfu({
   type: 'app',
   typescript: true,
   formatters: true,
-  ignores: ['.pnpm-store/**'],
+  ignores: ['.pnpm-store/**', '**/migrations/*'],
 }, {
   rules: {
     'ts/no-redeclare': 'off',
