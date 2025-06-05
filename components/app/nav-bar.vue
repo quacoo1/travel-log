@@ -4,7 +4,7 @@ import { UButton } from '#components'
 
 <template>
   <header class="flex h-16 shrink-0 items-center justify-between gap-2 border-b border-default px-4">
-    <UButton variant="ghost" icon="hugeicons:maps-location-02" color="neutral" to="/">
+    <UButton variant="ghost" icon="solar:map-point-wave-bold-duotone" :ui="{ leadingIcon: 'text-primary size-8' }" color="neutral" to="/" size="xl">
       Travel Log
     </UButton>
     <div class="flex items-center space-x-2">
