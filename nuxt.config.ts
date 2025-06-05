@@ -6,7 +6,7 @@ import './lib/env'
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/ui'],
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@pinia/nuxt'],
   css: ['~/assets/css/main.css'],
   eslint: {
     config: {
