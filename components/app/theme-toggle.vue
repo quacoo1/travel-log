@@ -14,7 +14,7 @@ const isDark = computed({
 <template>
   <ClientOnly v-if="!colorMode?.forced">
     <UButton
-      :icon="isDark ? 'solar:moon-line-duotone' : 'solar:sun-2-line-duotone'"
+      :icon="isDark ? 'solar:sun-2-line-duotone' : 'solar:moon-line-duotone'"
       color="neutral"
       variant="ghost"
       size="lg"
