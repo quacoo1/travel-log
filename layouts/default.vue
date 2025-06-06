@@ -2,7 +2,9 @@
   <div class="flex min-h-screen flex-col">
     <AppNavBar />
     <main>
-      <slot />
+      <UContainer class="mt-16">
+        <slot />
+      </UContainer>
     </main>
   </div>
 </template>
