@@ -4,7 +4,7 @@ const error = route.query.error || 'an unknown error occured'
 </script>
 
 <template>
-  <UContainer class="mt-16">
+  <div>
     <UAlert icon="solar:danger-triangle-line-duotone" variant="subtle" color="error" :ui="{ icon: 'size-6', title: 'text-md items-center' }">
       <template #title>
         Oh no {{ error }}
@@ -15,5 +15,5 @@ const error = route.query.error || 'an unknown error occured'
         Home
       </UButton>
     </div>
-  </UContainer>
+  </div>
 </template>
