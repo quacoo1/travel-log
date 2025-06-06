@@ -23,6 +23,7 @@ const dropdownMenu = ref<DropdownMenuItem[][]>([
 <template>
   <UDropdownMenu v-if="!loading && user" :items="dropdownMenu">
     <UButton
+      :size="size"
       variant="ghost" color="neutral" :avatar="{
         src: user.image || undefined,
         alt: user.name,
