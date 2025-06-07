@@ -1,3 +1,5 @@
 <template>
-  <h1>Yyou are logged in</h1>
+  <div class="flex-1 flex">
+    <AppSideBar />
+  </div>
 </template>

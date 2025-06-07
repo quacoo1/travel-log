@@ -13,6 +13,9 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+  icon: {
+    scan: true,
+  },
   vite: {
     plugins: [
       tailwindcss(),

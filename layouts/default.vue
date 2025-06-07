@@ -6,10 +6,8 @@ await authStore.init()
 <template>
   <div class="flex min-h-screen flex-col">
     <AppNavBar />
-    <main>
-      <UContainer class="mt-16">
-        <slot />
-      </UContainer>
+    <main class="flex-1 flex flex-col">
+      <slot />
     </main>
   </div>
 </template>
