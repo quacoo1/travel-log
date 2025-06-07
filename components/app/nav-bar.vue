@@ -1,8 +1,6 @@
 <template>
   <header class="flex h-16 shrink-0 items-center justify-between gap-2 border-b border-default px-4">
-    <UButton variant="ghost" icon="solar:map-point-wave-bold-duotone" :ui="{ leadingIcon: 'text-primary size-8' }" color="neutral" to="/" size="xl">
-      Travel Log
-    </UButton>
+    <AppLogo />
     <div class="flex items-center space-x-2">
       <AppThemeToggle />
       <AuthButton />
